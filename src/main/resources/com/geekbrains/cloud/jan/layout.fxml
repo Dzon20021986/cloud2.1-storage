@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/1.8.0_312" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbrains.cloud.jan.Client">
+<ListView fx:id="clientView" layoutX="14.0" layoutY="14.0" prefHeight="369.0" prefWidth="257.0" />
+<ListView fx:id="serverView" layoutX="315.0" layoutY="14.0" prefHeight="369.0" prefWidth="271.0" />
+<Button layoutX="276.0" layoutY="117.0" mnemonicParsing="false" onAction="#upload" prefHeight="30.0" prefWidth="34.0" text="&gt;" />
+<Button layoutX="276.0" layoutY="213.0" mnemonicParsing="false" onAction="#download" prefHeight="37.0" prefWidth="34.0" text="&lt;" />
+</AnchorPane>
